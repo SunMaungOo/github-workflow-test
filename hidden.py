@@ -1,7 +1,7 @@
 import os
 
 def main():
-    print(f"Env value of HIDDEN_VALUE is {os.environ['HIDDEN_VALUE']}")
+    print(f"Env value of TMP_VALUE is {os.environ['TMP_VALUE']}")
 
 if __name__=="__main__":
     main()

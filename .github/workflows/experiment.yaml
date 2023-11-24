@@ -47,7 +47,7 @@ jobs:
      with: 
       python-version: "3.10"
    - name: Run python script in matrix
-     run: python ${{SECRET_PYTHON_FILE}}
+     run: python ${{secrets.SECRET_PYTHON_FILE}}
      env:
       AGE: 200
       TMP_VALUE: ${{secrets.HIDDEN_VALUE}}
